@@ -1,0 +1,22 @@
+{
+  "name": "demo-registry",
+  "version": "1.0.0",
+  "description": "just a registry, nothing interesting here...",
+  "homepage": "https://github.com/P1oN/demo-registry#readme",
+  "bugs": {
+    "url": "https://github.com/P1oN/demo-registry/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P1oN/demo-registry.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build-registry.mjs",
+    "serve:go": "cd server && go run .",
+    "dev": "npm run build && npm run serve:go"
+  }
+}
